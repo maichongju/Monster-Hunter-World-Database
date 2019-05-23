@@ -1,0 +1,17 @@
+ailment_roar
+ailment_wind
+ailment_tremor
+ailment_defensedown
+ailment_fireblight
+ailment_waterblight
+ailment_thunderblight
+ailment_iceblight
+ailment_dragonblight
+ailment_blastblight
+ailment_poison
+ailment_sleep
+ailment_paralysis
+ailment_bleed
+ailment_stun
+ailment_mud
+ailment_effluvia

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512.0 512.0"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="item_question_mark.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1644"
+     inkscape:window-height="1127"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="1.3037281"
+     inkscape:cx="197.80707"
+     inkscape:cy="215.71152"
+     inkscape:window-x="2778"
+     inkscape:window-y="2"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <path
+     style="fill:#000000"
+     inkscape:connector-curvature="0"
+     id="path2"
+     d="M 335.55,331.85 V 456 H 192.03 V 331.85 c 0,-21.8 5.75,-40.19 16.8,-56.36 -3.4,0.34 -6.82,0.52 -10.25,0.52 -27.08,0 -51.87,-7.74 -71.35,-20.81 C 108.66,242.74 96,226.18 96,210.23 V 100.87 l 0.61,-2.43 c 3.09,-12.27 8,-22.21 15.26,-29.6 C 120.16,60.4 130.9,56 142.87,56 h 229.5 l 2.76,0.8 c 24.83,7.2 39.9,23.37 39.9,46.57 v 113 L 404.06,222 c -46.3,23.73 -68.5,59.44 -68.5,109.85 z" />
+  <path
+     style="fill:#ffffff"
+     inkscape:connector-curvature="0"
+     id="path4"
+     d="m 212.23,331.85 c 0,-84.15 103.12,-76.04 103.12,-171.85 0,-27.93 -10.85,-43.21 -32.53,-45.84 H 207.2 c -20.56,1.9 -30.85,17.18 -30.85,45.84 0,43 31.64,52.66 41.8,52.66 10.14,0 14.8,-5.68 14.8,-15.8 0,-16.7 -25.75,-28.2 -25.75,-47.42 0,-10.57 8.04,-15.12 17.77,-15.12 21.04,0 55.23,17.37 55.23,53.6 0,36.73 -41.47,67.9 -81.63,67.9 -50.42,0 -82.38,-31.17 -82.38,-45.59 V 103.37 C 120.75,85.26 129.64,76.2 142.86,76.2 H 369.5 c 16.89,4.9 25.33,13.95 25.33,27.17 v 100.65 c -53,27.17 -79.5,69.78 -79.5,127.83 H 212.24 Z m 0,47.31 h 20.58 v 21.8 H 277 v -21.8 h 38.35 V 435.8 H 212.23 Z" />
+</svg>

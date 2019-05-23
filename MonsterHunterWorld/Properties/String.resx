@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArmorArms" xml:space="preserve">
+    <value>Arms</value>
+  </data>
+  <data name="ArmorChest" xml:space="preserve">
+    <value>Chest</value>
+  </data>
+  <data name="ArmorHead" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="ArmorLegs" xml:space="preserve">
+    <value>Legs</value>
+  </data>
+  <data name="ArmorWaist" xml:space="preserve">
+    <value>Waist</value>
+  </data>
+  <data name="ItemCategoryAmmo" xml:space="preserve">
+    <value>Ammo</value>
+    <comment>Item Category Ammo Text</comment>
+  </data>
+  <data name="ItemCategoryItem" xml:space="preserve">
+    <value>Item</value>
+    <comment>Item Category Item Text</comment>
+  </data>
+  <data name="ItemCategoryMaterial" xml:space="preserve">
+    <value>Material</value>
+    <comment>Item Category Material Text</comment>
+  </data>
+  <data name="ItemCategoryMisc" xml:space="preserve">
+    <value>Misc</value>
+    <comment>Item Category Misc Text</comment>
+  </data>
+  <data name="GeneralRequiredMaterials" xml:space="preserve">
+    <value>Required Materials</value>
+  </data>
+  <data name="GeneralSkill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="GeneralSlot" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="ToolTipArmorDisplayArmorSet" xml:space="preserve">
+    <value>Click to show the Armor Set</value>
+  </data>
+  <data name="ToolTipArmorSetBonusSkill" xml:space="preserve">
+    <value>Skill Name (Require Armor)</value>
+  </data>
+  <data name="ToolTipDefense" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="ToolTipDefenseBase" xml:space="preserve">
+    <value>Defense Base</value>
+  </data>
+  <data name="ToolTipDefenseMax" xml:space="preserve">
+    <value>Defense Max</value>
+  </data>
+  <data name="ToolTipDragon" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="ToolTipFire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="ToolTipIce" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="ToolTipThunder" xml:space="preserve">
+    <value>Thunder</value>
+  </data>
+  <data name="ToolTipWater" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="UISideArmor" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="UISideArmorSet" xml:space="preserve">
+    <value>Armor Set</value>
+  </data>
+  <data name="UISideCharms" xml:space="preserve">
+    <value>Charm</value>
+  </data>
+  <data name="UISideDecorations" xml:space="preserve">
+    <value>Decoration</value>
+  </data>
+  <data name="UISideHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="UISideItem" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="UISideMonster" xml:space="preserve">
+    <value>Monster</value>
+  </data>
+  <data name="UISideSkill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="UISideWeapon" xml:space="preserve">
+    <value>Weapon</value>
+  </data>
+  <data name="WeaponTypeGreatSword" xml:space="preserve">
+    <value>Great Sword</value>
+  </data>
+  <data name="WeaponTypeLongSword" xml:space="preserve">
+    <value>Long Sword</value>
+  </data>
+  <data name="WeaponTypeSwordAndShield" xml:space="preserve">
+    <value>Sword And Shield</value>
+  </data>
+  <data name="WeaponTypeDualBlades" xml:space="preserve">
+    <value>Dual Blades</value>
+  </data>
+  <data name="WeaponTypeHammer" xml:space="preserve">
+    <value>Hammer</value>
+  </data>
+  <data name="WeaponTypeHuntingHorn" xml:space="preserve">
+    <value>Hunting Horn</value>
+  </data>
+  <data name="WeaponTypeLance" xml:space="preserve">
+    <value>Lance</value>
+  </data>
+  <data name="WeaponTypeGunlance" xml:space="preserve">
+    <value>Gunlance</value>
+  </data>
+  <data name="WeaponTypeSwitchAxe" xml:space="preserve">
+    <value>Switch Axe</value>
+  </data>
+  <data name="WeaponTypeChargeBlade" xml:space="preserve">
+    <value>Charge Blade</value>
+  </data>
+  <data name="WeaponTypeInsectGlaive" xml:space="preserve">
+    <value>Insect Glaive</value>
+  </data>
+  <data name="WeaponTypeLightBowgun" xml:space="preserve">
+    <value>Light Bowgun</value>
+  </data>
+  <data name="WeaponTypeHeavyBowgun" xml:space="preserve">
+    <value>Heavy Bowgun</value>
+  </data>
+  <data name="WeaponTypeBow" xml:space="preserve">
+    <value>Bow</value>
+  </data>
+  <data name="AmmoDeviationAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="AmmoDeviationHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="AmmoDeviationLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="AmmoDeviationNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="AmmoRecoilAutoReload" xml:space="preserve">
+    <value>Auto Reload</value>
+  </data>
+  <data name="AmmoRecoilAverage" xml:space="preserve">
+    <value>Recoil+2</value>
+  </data>
+  <data name="AmmoRecoilHigh" xml:space="preserve">
+    <value>Recoil+3</value>
+  </data>
+  <data name="AmmoRecoilLow" xml:space="preserve">
+    <value>Recoil+1</value>
+  </data>
+  <data name="AmmoRecoilVeryHigh" xml:space="preserve">
+    <value>Recoil+4</value>
+  </data>
+  <data name="AmmoReloadFast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="AmmoReloadNormal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="AmmoReloadSlow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="AmmoReloadVerySlow" xml:space="preserve">
+    <value>Very Slow</value>
+  </data>
+  <data name="AmmoSpecialAmmoWyvernblast" xml:space="preserve">
+    <value>Wyvernblast</value>
+  </data>
+  <data name="AmmoSpecialAmmoWyvernsnipe" xml:space="preserve">
+    <value>Wyvernsnipe</value>
+  </data>
+  <data name="AmmoNormal1Ammo" xml:space="preserve">
+    <value>Normal Ammo 1</value>
+  </data>
+  <data name="AmmoNormal2Ammo" xml:space="preserve">
+    <value>Normal Ammo 2</value>
+  </data>
+  <data name="AmmoNormal3Ammo" xml:space="preserve">
+    <value>Normal Ammo 3</value>
+  </data>
+  <data name="AmmoPierce1Ammo" xml:space="preserve">
+    <value>Pierce Ammo 1</value>
+  </data>
+  <data name="AmmoPierce2Ammo" xml:space="preserve">
+    <value>Pierce Ammo 2</value>
+  </data>
+  <data name="AmmoPierce3Ammo" xml:space="preserve">
+    <value>Pierce Ammo 3</value>
+  </data>
+  <data name="AmmoSpread1Ammo" xml:space="preserve">
+    <value>Spread Ammo 1</value>
+  </data>
+  <data name="AmmoSpread2Ammo" xml:space="preserve">
+    <value>Spread Ammo 2</value>
+  </data>
+  <data name="AmmoSpread3Ammo" xml:space="preserve">
+    <value>Spread Ammo 3</value>
+  </data>
+  <data name="AmmoSticky1Ammo" xml:space="preserve">
+    <value>Sticky Ammo 1</value>
+  </data>
+  <data name="AmmoSticky2Ammo" xml:space="preserve">
+    <value>Sticky Ammo 2</value>
+  </data>
+  <data name="AmmoSticky3Ammo" xml:space="preserve">
+    <value>Sticky Ammo 3</value>
+  </data>
+  <data name="AmmoCluster1Ammo" xml:space="preserve">
+    <value>Cluster Ammo 1</value>
+  </data>
+  <data name="AmmoCluster2Ammo" xml:space="preserve">
+    <value>Cluster Ammo 2</value>
+  </data>
+  <data name="AmmoCluster3Ammo" xml:space="preserve">
+    <value>Cluster Ammo 3</value>
+  </data>
+  <data name="AmmoRecover1Ammo" xml:space="preserve">
+    <value>Recover Ammo 1</value>
+  </data>
+  <data name="AmmoRecover2Ammo" xml:space="preserve">
+    <value>Recover Ammo 2</value>
+  </data>
+  <data name="AmmoPoison1Ammo" xml:space="preserve">
+    <value>Poison Ammo 1</value>
+  </data>
+  <data name="AmmoPoison2Ammo" xml:space="preserve">
+    <value>Poison Ammo 2</value>
+  </data>
+  <data name="AmmoParalysis1Ammo" xml:space="preserve">
+    <value>Paralysis Ammo 1</value>
+  </data>
+  <data name="AmmoParalysis2Ammo" xml:space="preserve">
+    <value>Paralysis Ammo 2</value>
+  </data>
+  <data name="AmmoSleep1Ammo" xml:space="preserve">
+    <value>Sleep Ammo 1</value>
+  </data>
+  <data name="AmmoSleep2Ammo" xml:space="preserve">
+    <value>Sleep Ammo 2</value>
+  </data>
+  <data name="AmmoExhaust1Ammo" xml:space="preserve">
+    <value>Exhaust Ammo 1</value>
+  </data>
+  <data name="AmmoExhaust2Ammo" xml:space="preserve">
+    <value>Exhaust Ammo 2</value>
+  </data>
+  <data name="AmmoFlamingAmmo" xml:space="preserve">
+    <value>Flaming Ammo</value>
+  </data>
+  <data name="AmmoWaterAmmo" xml:space="preserve">
+    <value>Water Ammo</value>
+  </data>
+  <data name="AmmoFreezeAmmo" xml:space="preserve">
+    <value>Freeze Ammo</value>
+  </data>
+  <data name="AmmoThunderAmmo" xml:space="preserve">
+    <value>Thunder Ammo</value>
+  </data>
+  <data name="AmmoDragonAmmo" xml:space="preserve">
+    <value>Dragon Ammo</value>
+  </data>
+  <data name="AmmoSlicingAmmo" xml:space="preserve">
+    <value>Slicing Ammo</value>
+  </data>
+  <data name="AmmoWyvernAmmo" xml:space="preserve">
+    <value>Wyvern Ammo</value>
+  </data>
+  <data name="AmmoDemonAmmo" xml:space="preserve">
+    <value>Demon Ammo</value>
+  </data>
+  <data name="AmmoArmorAmmo" xml:space="preserve">
+    <value>Armor Ammo</value>
+  </data>
+  <data name="AmmoTranqAmmo" xml:space="preserve">
+    <value>Tranq Ammo</value>
+  </data>
+  <data name="AmmoSpecialAmmoWyvernheart" xml:space="preserve">
+    <value>Wyvernheart</value>
+  </data>
+  <data name="GeneralRarity" xml:space="preserve">
+    <value>Rarity</value>
+  </data>
+  <data name="WeaponAffinity" xml:space="preserve">
+    <value>Affinity</value>
+  </data>
+  <data name="WeaponAttack" xml:space="preserve">
+    <value>Attack</value>
+  </data>
+  <data name="WeaponAttackTrue" xml:space="preserve">
+    <value>Attack(True)</value>
+  </data>
+  <data name="WeaponDefense" xml:space="preserve">
+    <value>Defense</value>
+  </data>
+  <data name="WeaponElderseal" xml:space="preserve">
+    <value>Elderseal</value>
+  </data>
+  <data name="WeaponElement" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="WeaponSharpness" xml:space="preserve">
+    <value>Sharpness</value>
+  </data>
+  <data name="WeaponSlots" xml:space="preserve">
+    <value>Slots</value>
+  </data>
+  <data name="WeaponElderSealAverage" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="WeaponElderSealHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="WeaponElderSealLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="WeaponElderSealNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="WeaponElementBlast" xml:space="preserve">
+    <value>Blast</value>
+  </data>
+  <data name="WeaponElementDragon" xml:space="preserve">
+    <value>Dragon</value>
+  </data>
+  <data name="WeaponElementFire" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="WeaponElementHidden" xml:space="preserve">
+    <value>Hidden Element</value>
+  </data>
+  <data name="WeaponElementIce" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="WeaponElementParalysis" xml:space="preserve">
+    <value>Paralysis</value>
+  </data>
+  <data name="WeaponElementPoison" xml:space="preserve">
+    <value>Posion</value>
+  </data>
+  <data name="WeaponElementSleep" xml:space="preserve">
+    <value>Sleep</value>
+  </data>
+  <data name="WeaponElementThunder" xml:space="preserve">
+    <value>Thunder</value>
+  </data>
+  <data name="WeaponElementWater" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="WeaponNotes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="AmmoRapidFalse" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="AmmoRapidTrue" xml:space="preserve">
+    <value>Rapid</value>
+  </data>
+  <data name="WeaponDeviation" xml:space="preserve">
+    <value>Deviation</value>
+  </data>
+  <data name="WeaponSpecialAmmo" xml:space="preserve">
+    <value>Special Ammo</value>
+  </data>
+  <data name="WeaponBowCostings" xml:space="preserve">
+    <value>Costings</value>
+  </data>
+  <data name="WeaponBowCostingsClose" xml:space="preserve">
+    <value>Close Costing</value>
+  </data>
+  <data name="WeaponRequiredMaterials" xml:space="preserve">
+    <value>Required Materials</value>
+  </data>
+  <data name="WeaponSkill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="GeneralHighRank" xml:space="preserve">
+    <value>High Rank</value>
+  </data>
+  <data name="GeneraLowRank" xml:space="preserve">
+    <value>Low Rank</value>
+  </data>
+  <data name="DecorationDropRate" xml:space="preserve">
+    <value>Drop Rate</value>
+  </data>
+  <data name="DecorationSkill" xml:space="preserve">
+    <value>Skill</value>
+  </data>
+  <data name="CharmUpgradeFrom" xml:space="preserve">
+    <value>Upgrade From</value>
+  </data>
+  <data name="GeneralLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="SettingCancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SettingConfirmText" xml:space="preserve">
+    <value>Change Language require restart application, do you want to restart now?</value>
+  </data>
+  <data name="SettingConfirmTitle" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="SettingLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="SettingOKButton" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="SettingTitle" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="ToolTipQuestEvent" xml:space="preserve">
+    <value>Quest Event</value>
+  </data>
+  <data name="ItemBuyPrice" xml:space="preserve">
+    <value>Buy Price</value>
+  </data>
+  <data name="ItemCarryLimit" xml:space="preserve">
+    <value>Carry Limit</value>
+  </data>
+  <data name="ItemObtain" xml:space="preserve">
+    <value>Obtain</value>
+  </data>
+  <data name="ItemSellPrice" xml:space="preserve">
+    <value>Sell Price</value>
+  </data>
+  <data name="WeaponAmmoAmmo" xml:space="preserve">
+    <value>Ammo</value>
+  </data>
+  <data name="WeaponAmmoCapacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="WeaponAmmoReload" xml:space="preserve">
+    <value>Reload</value>
+  </data>
+  <data name="WeaponAmmoShotType" xml:space="preserve">
+    <value>ShotType</value>
+  </data>
+  <data name="WeaponCreate" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="WeaponMelodyDuration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="WeaponMelodyExtension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="WeaponMelodyMelodies" xml:space="preserve">
+    <value>Melodies</value>
+  </data>
+  <data name="WeaponUpgrade" xml:space="preserve">
+    <value>Upgrade</value>
+  </data>
+  <data name="MonsterAilmentExtreme" xml:space="preserve">
+    <value>Extreme</value>
+  </data>
+  <data name="MonsterAilmentLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="MonsterAilmentSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="MonsterAilmentTremor" xml:space="preserve">
+    <value>Tremor</value>
+  </data>
+  <data name="MonsterAilmentDefensedown" xml:space="preserve">
+    <value>Defensedown</value>
+  </data>
+  <data name="MonsterAilmentFireblight" xml:space="preserve">
+    <value>Fireblight</value>
+  </data>
+  <data name="MonsterAilmentWaterblight" xml:space="preserve">
+    <value>Waterblight</value>
+  </data>
+  <data name="MonsterAilmentThunderblight" xml:space="preserve">
+    <value>Thunderblight</value>
+  </data>
+  <data name="MonsterAilmentIceblight" xml:space="preserve">
+    <value>Iceblight</value>
+  </data>
+  <data name="MonsterAilmentDragonblight" xml:space="preserve">
+    <value>Dragonblight</value>
+  </data>
+  <data name="MonsterAilmentBlastblight" xml:space="preserve">
+    <value>Blastblight</value>
+  </data>
+  <data name="MonsterAilmentPoison" xml:space="preserve">
+    <value>Poison</value>
+  </data>
+  <data name="MonsterAilmentSleep" xml:space="preserve">
+    <value>Sleep</value>
+  </data>
+  <data name="MonsterAilmentParalysis" xml:space="preserve">
+    <value>Paralysis</value>
+  </data>
+  <data name="MonsterAilmentBleed" xml:space="preserve">
+    <value>Bleed</value>
+  </data>
+  <data name="MonsterAilmentStun" xml:space="preserve">
+    <value>Stun</value>
+  </data>
+  <data name="MonsterAilmentMud" xml:space="preserve">
+    <value>Mud</value>
+  </data>
+  <data name="MonsterAilmentEffluvia" xml:space="preserve">
+    <value>Effluvia</value>
+  </data>
+  <data name="MonsterAilmentRoar" xml:space="preserve">
+    <value>Roar</value>
+  </data>
+  <data name="MonsterAilmentWind" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="MonsterSizeLarge" xml:space="preserve">
+    <value>Large</value>
+  </data>
+  <data name="MonsterSizeSmall" xml:space="preserve">
+    <value>Small</value>
+  </data>
+  <data name="MonsterAltNone" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="MonsterWeakness" xml:space="preserve">
+    <value>Weakness</value>
+  </data>
+  <data name="MonsterObtain" xml:space="preserve">
+    <value>Obtain</value>
+  </data>
+  <data name="MonsterDamage" xml:space="preserve">
+    <value>Damage</value>
+  </data>
+  <data name="MonsterHitzone" xml:space="preserve">
+    <value>HitZone</value>
+  </data>
+  <data name="MonsterAilment" xml:space="preserve">
+    <value>Ailment</value>
+  </data>
+</root>

@@ -1,0 +1,105 @@
+  <data name="AmmoNormal1Ammo" xml:space="preserve">
+    <value>Normal Ammo 1</value>
+  </data>
+  <data name="AmmoNormal2Ammo" xml:space="preserve">
+    <value>Normal Ammo 2</value>
+  </data>
+  <data name="AmmoNormal3Ammo" xml:space="preserve">
+    <value>Normal Ammo 3</value>
+  </data>
+  <data name="AmmoPierce1Ammo" xml:space="preserve">
+    <value>Pierce Ammo 1</value>
+  </data>
+  <data name="AmmoPierce2Ammo" xml:space="preserve">
+    <value>Pierce Ammo 2</value>
+  </data>
+  <data name="AmmoPierce3Ammo" xml:space="preserve">
+    <value>Pierce Ammo 3</value>
+  </data>
+  <data name="AmmoSpread1Ammo" xml:space="preserve">
+    <value>Spread Ammo 1</value>
+  </data>
+  <data name="AmmoSpread2Ammo" xml:space="preserve">
+    <value>Spread Ammo 2</value>
+  </data>
+  <data name="AmmoSpread3Ammo" xml:space="preserve">
+    <value>Spread Ammo 3</value>
+  </data>
+  <data name="AmmoSticky1Ammo" xml:space="preserve">
+    <value>Sticky Ammo 1</value>
+  </data>
+  <data name="AmmoSticky2Ammo" xml:space="preserve">
+    <value>Sticky Ammo 2</value>
+  </data>
+  <data name="AmmoSticky3Ammo" xml:space="preserve">
+    <value>Sticky Ammo 3</value>
+  </data>
+  <data name="AmmoCluster1Ammo" xml:space="preserve">
+    <value>Cluster Ammo 1</value>
+  </data>
+  <data name="AmmoCluster2Ammo" xml:space="preserve">
+    <value>Cluster Ammo 2</value>
+  </data>
+  <data name="AmmoCluster3Ammo" xml:space="preserve">
+    <value>Cluster Ammo 3</value>
+  </data>
+  <data name="AmmoRecover1Ammo" xml:space="preserve">
+    <value>Recover Ammo 1</value>
+  </data>
+  <data name="AmmoRecover2Ammo" xml:space="preserve">
+    <value>Recover Ammo 2</value>
+  </data>
+  <data name="AmmoPoison1Ammo" xml:space="preserve">
+    <value>Poison Ammo 1</value>
+  </data>
+  <data name="AmmoPoison2Ammo" xml:space="preserve">
+    <value>Poison Ammo 2</value>
+  </data>
+  <data name="AmmoParalysis1Ammo" xml:space="preserve">
+    <value>Paralysis Ammo 1</value>
+  </data>
+  <data name="AmmoParalysis2Ammo" xml:space="preserve">
+    <value>Paralysis Ammo 2</value>
+  </data>
+  <data name="AmmoSleep1Ammo" xml:space="preserve">
+    <value>Sleep Ammo 1</value>
+  </data>
+  <data name="AmmoSleep2Ammo" xml:space="preserve">
+    <value>Sleep Ammo 2</value>
+  </data>
+  <data name="AmmoExhaust1Ammo" xml:space="preserve">
+    <value>Exhaust Ammo 1</value>
+  </data>
+  <data name="AmmoExhaust2Ammo" xml:space="preserve">
+    <value>Exhaust Ammo 2</value>
+  </data>
+  <data name="AmmoFlamingAmmo" xml:space="preserve">
+    <value>Flaming Ammo</value>
+  </data>
+  <data name="AmmoWaterAmmo" xml:space="preserve">
+    <value>Water Ammo</value>
+  </data>
+  <data name="AmmoFreezeAmmo" xml:space="preserve">
+    <value>Freeze Ammo</value>
+  </data>
+  <data name="AmmoThunderAmmo" xml:space="preserve">
+    <value>Thunder Ammo</value>
+  </data>
+  <data name="AmmoDragonAmmo" xml:space="preserve">
+    <value>Dragon Ammo</value>
+  </data>
+  <data name="AmmoSlicingAmmo" xml:space="preserve">
+    <value>Slicing Ammo</value>
+  </data>
+  <data name="AmmoWyvernAmmo" xml:space="preserve">
+    <value>Wyvern Ammo</value>
+  </data>
+  <data name="AmmoDemonAmmo" xml:space="preserve">
+    <value>Demon Ammo</value>
+  </data>
+  <data name="AmmoArmorAmmo" xml:space="preserve">
+    <value>Armor Ammo</value>
+  </data>
+  <data name="AmmoTranqAmmo" xml:space="preserve">
+    <value>Tranq Ammo</value>
+  </data>

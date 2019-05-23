@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512.0 512.0"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="ui_armor_skill.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="916"
+     inkscape:window-height="883"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="558.27933"
+     inkscape:cy="118.01234"
+     inkscape:window-x="2896"
+     inkscape:window-y="169"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg10" />
+  <path
+     style="fill:#ffffff"
+     inkscape:connector-curvature="0"
+     id="path2"
+     d="M 256,56 456,156 V 356 L 256,456 56,356 V 156 Z" />
+  <path
+     style="fill:#ffffff"
+     inkscape:connector-curvature="0"
+     id="path4"
+     d="M 256,56 456,156 V 356 L 256,456 56,356 V 156 Z" />
+  <path
+     style="fill:#000000"
+     inkscape:connector-curvature="0"
+     id="path6"
+     d="M 431,168.44 V 343.56 L 256,431 81,343.56 V 168.44 L 256,81 Z M 84.39,170.36 V 341.64 L 256,427.39 427.61,341.64 V 170.36 L 256,84.61 Z m 110.15,182.7 H 331.8 v 30.72 h -16.39 v -15.36 h -36.87 v 15.36 h -16.4 v -15.36 h -51.21 v 15.36 h -16.4 v -30.72 z m 96.29,-115.2 v -30.72 h 40.97 v 30.72 l -32.78,19.2 -69.65,65.28 c 0,0 -65.65,-0.02 -81.96,-84.48 z m -131.12,-28.8 c 0,0 17.41,-80.84 116.98,-80.84 0,0 40.36,0.2 59.21,29 0,0 -45.1,15.55 -55.32,51.84 z m 147.5,-17.28 c 0,0 31.6,-30.72 57.38,-30.72 v 96 c 0,0 -49.18,26.4 -49.18,46.08 h -36.87 c 0,0 3.32,-28.9 69.65,-61.44 v -49.93 h -40.97 z m -61.46,128.64 h 69.66 v 17.04 h -69.66 z" />
+</svg>

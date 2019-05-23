@@ -1,0 +1,694 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\arm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armorset_empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\armorset_empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\chest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\leg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Monster_52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="waist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Armor\waist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ui_arm" xml:space="preserve">
+    <value>Resources\Armor\arm.svg</value>
+  </data>
+  <data name="ui_armorset_empty" xml:space="preserve">
+    <value>Resources\Armor\armorset_empty.svg</value>
+  </data>
+  <data name="ui_chest" xml:space="preserve">
+    <value>Resources\Armor\chest.svg</value>
+  </data>
+  <data name="ui_head" xml:space="preserve">
+    <value>Resources\Armor\head.svg</value>
+  </data>
+  <data name="ui_leg" xml:space="preserve">
+    <value>Resources\Armor\leg.svg</value>
+  </data>
+  <data name="ui_waist" xml:space="preserve">
+    <value>Resources\Armor\waist.svg</value>
+  </data>
+  <data name="ui_item_ammo" xml:space="preserve">
+    <value>Resources\General\ui_item_ammo.svg</value>
+  </data>
+  <data name="ui_item_item" xml:space="preserve">
+    <value>Resources\General\ui_item_item.svg</value>
+  </data>
+  <data name="ui_item_material" xml:space="preserve">
+    <value>Resources\General\ui_item_material.svg</value>
+  </data>
+  <data name="ui_item_misc" xml:space="preserve">
+    <value>Resources\General\ui_item_misc.svg</value>
+  </data>
+  <data name="ui_side_armor" xml:space="preserve">
+    <value>Resources\General\ui_side_armor.svg</value>
+  </data>
+  <data name="ui_side_armor_set" xml:space="preserve">
+    <value>Resources\General\ui_side_armor_set.svg</value>
+  </data>
+  <data name="ui_side_item" xml:space="preserve">
+    <value>Resources\General\ui_side_item.svg</value>
+  </data>
+  <data name="ui_side_monster" xml:space="preserve">
+    <value>Resources\General\ui_side_monster.svg</value>
+  </data>
+  <data name="item_ammo" xml:space="preserve">
+    <value>Resources\Item\item_ammo.svg</value>
+  </data>
+  <data name="item_bait" xml:space="preserve">
+    <value>Resources\Item\item_bait.svg</value>
+  </data>
+  <data name="item_barrel" xml:space="preserve">
+    <value>Resources\Item\item_barrel.svg</value>
+  </data>
+  <data name="item_barrelbomb" xml:space="preserve">
+    <value>Resources\Item\item_barrelbomb.svg</value>
+  </data>
+  <data name="item_binoculars" xml:space="preserve">
+    <value>Resources\Item\item_binoculars.svg</value>
+  </data>
+  <data name="item_body" xml:space="preserve">
+    <value>Resources\Item\item_body.svg</value>
+  </data>
+  <data name="item_bone" xml:space="preserve">
+    <value>Resources\Item\item_bone.svg</value>
+  </data>
+  <data name="item_book" xml:space="preserve">
+    <value>Resources\Item\item_book.svg</value>
+  </data>
+  <data name="item_boomerang" xml:space="preserve">
+    <value>Resources\Item\item_boomerang.svg</value>
+  </data>
+  <data name="item_bottle" xml:space="preserve">
+    <value>Resources\Item\item_bottle.svg</value>
+  </data>
+  <data name="item_bug" xml:space="preserve">
+    <value>Resources\Item\item_bug.svg</value>
+  </data>
+  <data name="item_carapace" xml:space="preserve">
+    <value>Resources\Item\item_carapace.svg</value>
+  </data>
+  <data name="item_charmore" xml:space="preserve">
+    <value>Resources\Item\item_charmore.svg</value>
+  </data>
+  <data name="item_coin" xml:space="preserve">
+    <value>Resources\Item\item_coin.svg</value>
+  </data>
+  <data name="item_dung" xml:space="preserve">
+    <value>Resources\Item\item_dung.svg</value>
+  </data>
+  <data name="item_emptybottle" xml:space="preserve">
+    <value>Resources\Item\item_emptybottle.svg</value>
+  </data>
+  <data name="item_fang" xml:space="preserve">
+    <value>Resources\Item\item_fang.svg</value>
+  </data>
+  <data name="item_feystone" xml:space="preserve">
+    <value>Resources\Item\item_feystone.svg</value>
+  </data>
+  <data name="item_gem" xml:space="preserve">
+    <value>Resources\Item\item_gem.svg</value>
+  </data>
+  <data name="item_herb" xml:space="preserve">
+    <value>Resources\Item\item_herb.svg</value>
+  </data>
+  <data name="item_hide" xml:space="preserve">
+    <value>Resources\Item\item_hide.svg</value>
+  </data>
+  <data name="item_webbing" xml:space="preserve">
+    <value>Resources\Item\item_honey.svg</value>
+  </data>
+  <data name="item_husk" xml:space="preserve">
+    <value>Resources\Item\item_husk.svg</value>
+  </data>
+  <data name="item_knife" xml:space="preserve">
+    <value>Resources\Item\item_knife.svg</value>
+  </data>
+  <data name="item_liquid" xml:space="preserve">
+    <value>Resources\Item\item_liquid.svg</value>
+  </data>
+  <data name="item_meat" xml:space="preserve">
+    <value>Resources\Item\item_meat.svg</value>
+  </data>
+  <data name="item_monsterjaw" xml:space="preserve">
+    <value>Resources\Item\item_monsterjaw.svg</value>
+  </data>
+  <data name="item_mushroom" xml:space="preserve">
+    <value>Resources\Item\item_mushroom.svg</value>
+  </data>
+  <data name="item_ore" xml:space="preserve">
+    <value>Resources\Item\item_ore.svg</value>
+  </data>
+  <data name="item_pellets" xml:space="preserve">
+    <value>Resources\Item\item_pellets.svg</value>
+  </data>
+  <data name="item_plate" xml:space="preserve">
+    <value>Resources\Item\item_plate.svg</value>
+  </data>
+  <data name="item_sac" xml:space="preserve">
+    <value>Resources\Item\item_sac.svg</value>
+  </data>
+  <data name="item_scale" xml:space="preserve">
+    <value>Resources\Item\item_scale.svg</value>
+  </data>
+  <data name="item_seed" xml:space="preserve">
+    <value>Resources\Item\item_seed.svg</value>
+  </data>
+  <data name="item_slinger" xml:space="preserve">
+    <value>Resources\Item\item_slinger.svg</value>
+  </data>
+  <data name="item_smoke" xml:space="preserve">
+    <value>Resources\Item\item_smoke.svg</value>
+  </data>
+  <data name="item_sphere" xml:space="preserve">
+    <value>Resources\Item\item_sphere.svg</value>
+  </data>
+  <data name="item_streamstone" xml:space="preserve">
+    <value>Resources\Item\item_streamstone.svg</value>
+  </data>
+  <data name="item_tail" xml:space="preserve">
+    <value>Resources\Item\item_tail.svg</value>
+  </data>
+  <data name="item_trap" xml:space="preserve">
+    <value>Resources\Item\item_trap.svg</value>
+  </data>
+  <data name="item_traptool" xml:space="preserve">
+    <value>Resources\Item\item_traptool.svg</value>
+  </data>
+  <data name="item_voucher" xml:space="preserve">
+    <value>Resources\Item\item_voucher.svg</value>
+  </data>
+  <data name="item_web" xml:space="preserve">
+    <value>Resources\Item\item_web.svg</value>
+  </data>
+  <data name="item_wing" xml:space="preserve">
+    <value>Resources\Item\item_wing.svg</value>
+  </data>
+  <data name="ui_research_points" xml:space="preserve">
+    <value>Resources\General\ui_research_points.svg</value>
+  </data>
+  <data name="ui_zenny" xml:space="preserve">
+    <value>Resources\General\ui_zenny.svg</value>
+  </data>
+  <data name="item_charm" xml:space="preserve">
+    <value>Resources\Item\item_charm.svg</value>
+  </data>
+  <data name="item_jaw" xml:space="preserve">
+    <value>Resources\Item\item_monster_jaw.svg</value>
+  </data>
+  <data name="ui_item_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\General\ui_item_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item_question" xml:space="preserve">
+    <value>Resources\Item\item_question_mark.svg</value>
+  </data>
+  <data name="ui_armor_arms" xml:space="preserve">
+    <value>Resources\General\ui_armor_arm.svg</value>
+  </data>
+  <data name="ui_armor_chest" xml:space="preserve">
+    <value>Resources\General\ui_armor_chest.svg</value>
+  </data>
+  <data name="ui_armor_head" xml:space="preserve">
+    <value>Resources\General\ui_armor_head.svg</value>
+  </data>
+  <data name="ui_armor_legs" xml:space="preserve">
+    <value>Resources\General\ui_armor_leg.svg</value>
+  </data>
+  <data name="ui_armor_waist" xml:space="preserve">
+    <value>Resources\General\ui_armor_waist.svg</value>
+  </data>
+  <data name="ui_decoration_1" xml:space="preserve">
+    <value>Resources\General\ui_decoration_1.svg</value>
+  </data>
+  <data name="ui_decoration_2" xml:space="preserve">
+    <value>Resources\General\ui_decoration_2.svg</value>
+  </data>
+  <data name="ui_decoration_3" xml:space="preserve">
+    <value>Resources\General\ui_decoration_3.svg</value>
+  </data>
+  <data name="ui_element_dragon" xml:space="preserve">
+    <value>Resources\General\ui_element_dragon.svg</value>
+  </data>
+  <data name="ui_element_fire" xml:space="preserve">
+    <value>Resources\General\ui_element_fire.svg</value>
+  </data>
+  <data name="ui_element_ice" xml:space="preserve">
+    <value>Resources\General\ui_element_ice.svg</value>
+  </data>
+  <data name="ui_element_thunder" xml:space="preserve">
+    <value>Resources\General\ui_element_thunder.svg</value>
+  </data>
+  <data name="ui_element_water" xml:space="preserve">
+    <value>Resources\General\ui_element_water.svg</value>
+  </data>
+  <data name="ui_slot_empty_1" xml:space="preserve">
+    <value>Resources\General\ui_slot_1_empty.svg</value>
+  </data>
+  <data name="ui_slot_empty_2" xml:space="preserve">
+    <value>Resources\General\ui_slot_2_empty.svg</value>
+  </data>
+  <data name="ui_slot_empty_3" xml:space="preserve">
+    <value>Resources\General\ui_slot_3_empty.svg</value>
+  </data>
+  <data name="ui_defense" xml:space="preserve">
+    <value>Resources\General\ui_defense.svg</value>
+  </data>
+  <data name="ui_slot_empty_0" xml:space="preserve">
+    <value>Resources\General\ui_slot_0_empty.svg</value>
+  </data>
+  <data name="ui_armor_skill" xml:space="preserve">
+    <value>Resources\General\ui_armor_skill.svg</value>
+  </data>
+  <data name="ui_side_charm" xml:space="preserve">
+    <value>Resources\General\ui_side_charm.svg</value>
+  </data>
+  <data name="ui_side_decoration" xml:space="preserve">
+    <value>Resources\General\ui_side_decoration.svg</value>
+  </data>
+  <data name="ui_side_skill" xml:space="preserve">
+    <value>Resources\General\ui_side_skill.svg</value>
+  </data>
+  <data name="ui_side_weapon" xml:space="preserve">
+    <value>Resources\General\ui_side_weapon.svg</value>
+  </data>
+  <data name="weapon_bow" xml:space="preserve">
+    <value>Resources\Weapon\bow.svg</value>
+  </data>
+  <data name="weapon_charge_blade" xml:space="preserve">
+    <value>Resources\Weapon\charge_blade.svg</value>
+  </data>
+  <data name="weapon_dual_blades" xml:space="preserve">
+    <value>Resources\Weapon\dual_blades.svg</value>
+  </data>
+  <data name="weapon_great_sword" xml:space="preserve">
+    <value>Resources\Weapon\great_sword.svg</value>
+  </data>
+  <data name="weapon_gunlance" xml:space="preserve">
+    <value>Resources\Weapon\gunlance.svg</value>
+  </data>
+  <data name="weapon_hammer" xml:space="preserve">
+    <value>Resources\Weapon\hammer.svg</value>
+  </data>
+  <data name="weapon_heavy_bowgun" xml:space="preserve">
+    <value>Resources\Weapon\heavy_bowgun.svg</value>
+  </data>
+  <data name="weapon_hunting_horn" xml:space="preserve">
+    <value>Resources\Weapon\hunting_horn.svg</value>
+  </data>
+  <data name="weapon_insect_glaive" xml:space="preserve">
+    <value>Resources\Weapon\insect_glaive.svg</value>
+  </data>
+  <data name="weapon_lance" xml:space="preserve">
+    <value>Resources\Weapon\lance.svg</value>
+  </data>
+  <data name="weapon_light_bowgun" xml:space="preserve">
+    <value>Resources\Weapon\light_bowgun.svg</value>
+  </data>
+  <data name="weapon_long_sword" xml:space="preserve">
+    <value>Resources\Weapon\longs_word.svg</value>
+  </data>
+  <data name="weapon_switch_axe" xml:space="preserve">
+    <value>Resources\Weapon\switch_axe.svg</value>
+  </data>
+  <data name="weapon_sword_and_shield" xml:space="preserve">
+    <value>Resources\Weapon\sword_and_shield.svg</value>
+  </data>
+  <data name="weapon_affinity" xml:space="preserve">
+    <value>Resources\Weapon\weapon_affinity.svg</value>
+  </data>
+  <data name="weapon_attack" xml:space="preserve">
+    <value>Resources\Weapon\weapon_attack.svg</value>
+  </data>
+  <data name="weapon_elderseal" xml:space="preserve">
+    <value>Resources\Weapon\weapon_elderseal.svg</value>
+  </data>
+  <data name="weapon_element" xml:space="preserve">
+    <value>Resources\Weapon\weapon_element.svg</value>
+  </data>
+  <data name="weapon_element_blast" xml:space="preserve">
+    <value>Resources\General\ui_status_blast.svg</value>
+  </data>
+  <data name="weapon_element_paralysis" xml:space="preserve">
+    <value>Resources\General\ui_status_paralysis.svg</value>
+  </data>
+  <data name="weapon_element_poison" xml:space="preserve">
+    <value>Resources\General\ui_status_poison.svg</value>
+  </data>
+  <data name="weapon_element_sleep" xml:space="preserve">
+    <value>Resources\General\ui_status_sleep.svg</value>
+  </data>
+  <data name="weapon_sharpness" xml:space="preserve">
+    <value>Resources\Weapon\weapon_whetstone.svg</value>
+  </data>
+  <data name="weapon_slots" xml:space="preserve">
+    <value>Resources\Weapon\weapon_slots.svg</value>
+  </data>
+  <data name="weapon_special_ammo" xml:space="preserve">
+    <value>Resources\Weapon\weapon_special_ammo.svg</value>
+  </data>
+  <data name="weapon_element_dragon" xml:space="preserve">
+    <value>Resources\General\ui_element_dragon.svg</value>
+  </data>
+  <data name="weapon_element_fire" xml:space="preserve">
+    <value>Resources\General\ui_element_fire.svg</value>
+  </data>
+  <data name="weapon_element_ice" xml:space="preserve">
+    <value>Resources\General\ui_element_ice.svg</value>
+  </data>
+  <data name="weapon_element_thunder" xml:space="preserve">
+    <value>Resources\General\ui_element_thunder.svg</value>
+  </data>
+  <data name="weapon_element_water" xml:space="preserve">
+    <value>Resources\General\ui_element_water.svg</value>
+  </data>
+  <data name="weapon_notes" xml:space="preserve">
+    <value>Resources\Weapon\weapon_notes.svg</value>
+  </data>
+  <data name="weapon_note_1" xml:space="preserve">
+    <value>Resources\Weapon\note_1.svg</value>
+  </data>
+  <data name="weapon_note_2" xml:space="preserve">
+    <value>Resources\Weapon\note_2.svg</value>
+  </data>
+  <data name="weapon_note_3" xml:space="preserve">
+    <value>Resources\Weapon\note_3.svg</value>
+  </data>
+  <data name="weapon_deviation" xml:space="preserve">
+    <value>Resources\Weapon\weapon_deviation.svg</value>
+  </data>
+  <data name="ui_skill_empty" xml:space="preserve">
+    <value>Resources\General\ui_skill_empty.svg</value>
+  </data>
+  <data name="ui_skill_filled" xml:space="preserve">
+    <value>Resources\General\ui_skill_filled.svg</value>
+  </data>
+  <data name="ui_skill_left" xml:space="preserve">
+    <value>Resources\General\ui_skill_left.svg</value>
+  </data>
+  <data name="ui_skill_right" xml:space="preserve">
+    <value>Resources\General\ui_skill_right.svg</value>
+  </data>
+  <data name="ui_skill_space" xml:space="preserve">
+    <value>Resources\General\ui_skill_space.svg</value>
+  </data>
+  <data name="ui_charm" xml:space="preserve">
+    <value>Resources\General\ui_side_charm.svg</value>
+  </data>
+  <data name="Monster_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Monster\38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="monster_weakness_blast" xml:space="preserve">
+    <value>Resources\General\ui_status_blast.svg</value>
+  </data>
+  <data name="monster_weakness_dragon" xml:space="preserve">
+    <value>Resources\General\ui_element_dragon.svg</value>
+  </data>
+  <data name="monster_weakness_fire" xml:space="preserve">
+    <value>Resources\General\ui_element_fire.svg</value>
+  </data>
+  <data name="monster_weakness_ice" xml:space="preserve">
+    <value>Resources\General\ui_element_ice.svg</value>
+  </data>
+  <data name="monster_weakness_paralysis" xml:space="preserve">
+    <value>Resources\General\ui_status_paralysis.svg</value>
+  </data>
+  <data name="monster_weakness_poison" xml:space="preserve">
+    <value>Resources\General\ui_status_poison.svg</value>
+  </data>
+  <data name="monster_weakness_sleep" xml:space="preserve">
+    <value>Resources\General\ui_status_sleep.svg</value>
+  </data>
+  <data name="monster_weakness_stun" xml:space="preserve">
+    <value>Resources\General\ui_status_stun.svg</value>
+  </data>
+  <data name="monster_weakness_thunder" xml:space="preserve">
+    <value>Resources\General\ui_element_thunder.svg</value>
+  </data>
+  <data name="monster_weakness_water" xml:space="preserve">
+    <value>Resources\General\ui_element_water.svg</value>
+  </data>
+  <data name="ui_weakness_effect_star" xml:space="preserve">
+    <value>Resources\General\ui_weakness_effect_star.svg</value>
+  </data>
+  <data name="ui_weakness_no_effect_star" xml:space="preserve">
+    <value>Resources\General\ui_weakness_no_effect_star.svg</value>
+  </data>
+  <data name="monster_damage_cut" xml:space="preserve">
+    <value>Resources\Weapon\great_sword.svg</value>
+  </data>
+  <data name="monster_damage_dragon" xml:space="preserve">
+    <value>Resources\General\ui_element_dragon.svg</value>
+  </data>
+  <data name="monster_damage_fire" xml:space="preserve">
+    <value>Resources\General\ui_element_fire.svg</value>
+  </data>
+  <data name="monster_damage_ice" xml:space="preserve">
+    <value>Resources\General\ui_element_ice.svg</value>
+  </data>
+  <data name="monster_damage_impact" xml:space="preserve">
+    <value>Resources\Weapon\hammer.svg</value>
+  </data>
+  <data name="monster_damage_shot" xml:space="preserve">
+    <value>Resources\Item\item_ammo.svg</value>
+  </data>
+  <data name="monster_damage_thunder" xml:space="preserve">
+    <value>Resources\General\ui_element_thunder.svg</value>
+  </data>
+  <data name="monster_damage_water" xml:space="preserve">
+    <value>Resources\General\ui_element_water.svg</value>
+  </data>
+  <data name="monster_kinsect" xml:space="preserve">
+    <value>Resources\General\ui_monster_kinsect.svg</value>
+  </data>
+</root>
